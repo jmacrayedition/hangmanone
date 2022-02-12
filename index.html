@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Ahorcado</title>
+</head>
+
+<body>
+    <div id="principal">
+
+        <div class="container">
+            <h1>Ahorcado</h1>
+            <button id="iniciar-j" type="submit">INICIAR JUEGO</button>
+
+        </div>
+
+        <div class="container">
+
+            <input type="text"  name="add" id="add" minlength="5" placeholder="Agregar new palabra">
+            <button id="agregar-p" type="submit">AGREGAR PALABRA</button>
+        </div>
+
+
+    </div>
+    <div id="secundario">
+        <div class="container">
+            <h1>Ahorcado</h1>
+            <input type="text" name="add-r" id="add-r" maxlength="1" placeholder="Pulse una sola tecla">
+            <button id="add-a" type="submit">PULSAR</button>
+        </div>
+        <p id="texto_pintar">
+            Reemplazo
+        </p>
+        <div id="a_pintar">
+
+        </div>
+    </div>
+    
+    <footer>
+        <p>Todos los derechos reservados | © 2022 Jose Espin Fernandez</p>
+    </footer>
+
+</body>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"> </script> 
+<script src="config.js"></script>
+<script src="enviar.js"></script>
+
+
+
+</html>

@@ -1,0 +1,53 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.container {
+
+    text-align: center;
+
+}
+
+.container h1 {
+    margin: 1em;
+    font-weight: bold;
+}
+
+.container input {
+
+    padding: 12px 138px;
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.container button {
+    padding: 1em;
+    margin: 1em;
+    background: #ff0000;
+    border-radius: 10px;
+}
+
+#secundario {
+    display: none;
+}
+
+#secundario p{
+
+text-align: center;
+font-size: 3em;
+
+}
+#a_pintar{
+    /*alto*/
+    height: 210px;
+    /*ancho*/
+    width: 238px;
+    background-image: url(./ahorcado.png);
+    margin: auto;
+   
+}
+footer{
+    text-align: center;
+}
